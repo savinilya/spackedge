@@ -41,6 +41,7 @@ class RLeafcutter(RPackage):
     # FIXME: Add dependencies if required.
     depends_on('samtools@1.13',type=('build','run'))
     depends_on('regtools',type=('build','run'))
+    depends_on('fontconfig@2.12.3',type=('build','run'))
     depends_on('python@2.7.18',type=('build','run'))
     depends_on('r+X@3.5.1',type=('build','run'))
     depends_on('r-domc',type=('build','run'))
