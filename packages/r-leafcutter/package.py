@@ -39,11 +39,12 @@ class RLeafcutter(RPackage):
     # version('1.2.3', '0123456789abcdef0123456789abcdef')
 
     # FIXME: Add dependencies if required.
-    depends_on('samtools',type=('build','run'))
+    depends_on('samtools@1.13',type=('build','run'))
     depends_on('regtools',type=('build','run'))
     depends_on('python@2.7.18',type=('build','run'))
     depends_on('r+X@3.5.1',type=('build','run'))
     depends_on('r-domc',type=('build','run'))
+    depends_on('r-htmltools@0.5.1',type=('build','run'))
     depends_on('r-dplyr',type=('build','run'))
     depends_on('r-foreach',type=('build','run'))
     depends_on('r-ggplot2',type=('build','run'))
