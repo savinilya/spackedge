@@ -29,7 +29,8 @@ class RLeafcutter(RPackage):
     # FIXME: Add a proper url for your package's homepage here.
     homepage = "http://davidaknowles.github.io/leafcutter/"
     url      = "https://github.com/savinilya/spackedge/raw/main/src/leafcutter-0.2.7.tar.gz" 
-    version('0.2.7',sha256="1b8b6974f32648deb44879f8fb26d8ae097ed55c2174a3537636da5407ffb2a6")
+    version('0.2.8',sha256="1b8b6974f32648deb44879f8fb26d8ae097ed55c2174a3537636da5407ffb2a6")
+    version('0.2.7',sha256="dc1bc0a046caafe1714742d668c555c5d4c6cf44149736d3ae700c25d8d52432")
 
     # FIXME: Add a list of GitHub accounts to
     # notify when the package is updated.
