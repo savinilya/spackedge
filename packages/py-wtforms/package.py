@@ -28,12 +28,13 @@ class PyWtforms(PythonPackage):
 
     # FIXME: Add a proper url for your package's homepage here.
     homepage = "https://pypi.org/project/WTForms"
-    pypi     = "WTForms/WTForms-2.0.1.zip"
+    pypi     = "WTForms/WTForms-2.2.1.tar.gz"
 
     # FIXME: Add a list of GitHub accounts to
     # notify when the package is updated.
     # maintainers = ['github_user1', 'github_user2']
 
+    version('2.2.1', sha256='0cdbac3e7f6878086c334aa25dc5a33869a3954e9d1e015130d65a69309b3b61') 
     version('2.0.1', sha256='62859c74be4683601b5265ba83b9babd8a8f1cdd0ba31600fa1e70d295cd4ed2')
 
     # FIXME: Only add the python/pip/wheel dependencies if you need specific versions

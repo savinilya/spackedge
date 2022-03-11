@@ -32,12 +32,11 @@ class PyMajiq(PythonPackage):
     # FIXME: ensure the package is not available through PyPI. If it is,
     # re-run `spack create --force` with the PyPI URL.
     url      = "https://github.com/savinilya/spackedge/raw/main/src/majiq-2.0.0.tar.gz"
-
     # FIXME: Add a list of GitHub accounts to
     # notify when the package is updated.
     # maintainers = ['github_user1', 'github_user2']
 
-    version('2.0.0', sha256='a46890bd8abf48132529db94406cadcac0ab9f12cb887535ee0daf517f8173e6')
+    version('2.0.0', sha256='32f194bf846c010843d23539ffb95e36892116fa338a1164e8c3d3da8d1a5a17')
 
     # FIXME: Only add the python/pip/wheel dependencies if you need specific versions
     # or need to change the dependency type. Generic python/pip/wheel dependencies are
