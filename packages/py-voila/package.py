@@ -31,7 +31,7 @@ class PyVoila(PythonPackage):
 
     # FIXME: ensure the package is not available through PyPI. If it is,
     # re-run `spack create --force` with the PyPI URL.
-    url      = "voila-2.0.0.tar.gz"
+    url      = "https://github.com/savinilya/spackedge/raw/main/src/voila-2.0.0.tar.gz"
 
     # FIXME: Add a list of GitHub accounts to
     # notify when the package is updated.
