@@ -37,6 +37,7 @@ class PyVoila(PythonPackage):
     # notify when the package is updated.
     # maintainers = ['github_user1', 'github_user2']
 
+    version('2.3.0', sha256='5199ad49ea2b4ac03f3cd539a623f207956c37dfa5e299e4cdbff627a770b44b')
     version('2.0.0', sha256='ea7f63fd18ef021d2123eba502573e94c1515d91988fd249330b47c77044c09d')
 
     depends_on('python@3.8', type=('build', 'run'))

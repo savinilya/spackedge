@@ -36,7 +36,7 @@ class PyMajiq(PythonPackage):
     # notify when the package is updated.
     # maintainers = ['github_user1', 'github_user2']
 
-    version('2.3.0', sha256='c864a17a74e7b306a618a5918eb73fef33682616f0463b60c2034faf9f2ed534')
+    version('2.3.0', sha256='55bf2de80d4d56eac10868c247a0eb7dec6f4758cb178c75defba826d4e44c9e')
     version('2.0.0', sha256='32f194bf846c010843d23539ffb95e36892116fa338a1164e8c3d3da8d1a5a17')
 
     # FIXME: Only add the python/pip/wheel dependencies if you need specific versions
